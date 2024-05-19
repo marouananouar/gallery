@@ -10825,14 +10825,17 @@ ul#slide-list{
 	}
 	
 	header.force-header-mobile #mainmenu > li > span{
-		width:36px;
-		height:36px;
+		width:15px;
+		height:15px;
 		background:url(images/arrow-down.png) center no-repeat;
+		 background-color: red;
 		position:absolute;
 		right:0;
 		margin-top:10px;
 		z-index:1000;
 		cursor:pointer;
+	       
+
 	}
 	header.force-header-mobile.header-light #mainmenu > li > span{
 		background:url(../images/ui/arrow-down-invert.png) center no-repeat;
@@ -10846,9 +10849,10 @@ ul#slide-list{
 	}
 	
 	header.force-header-mobile #mainmenu li > ul > li > span{
-		width:36px;
-		height:36px;
+		width:15px;
+		height:15px;
 		background:url(images/arrow-down.png) center no-repeat;
+		 background-color: red;
 		position:absolute;
 		right:0;
 		margin-top:-45px;
@@ -11476,9 +11480,10 @@ ul#slide-list{
 	}
 	
 	header.header-mobile #mainmenu > li > span{
-		width:36px;
-		height:36px;
+		width:15px;
+		height:15px;
 		background:url(images/arrow-down.png) center no-repeat;
+		 background-color: red;
 		position:absolute;
 		right:0;
 		margin-top:10px;
@@ -11497,9 +11502,10 @@ ul#slide-list{
 	}
 	
 	header.header-mobile #mainmenu li > ul > li > span{
-		width:36px;
-		height:36px;
+		width:15px;
+		height:15px;
 		background:url(images/arrow-down.png) center no-repeat;
+		 background-color: red;
 		position:absolute;
 		right:0;
 		margin-top:-45px;
