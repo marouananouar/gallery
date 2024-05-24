@@ -35,8 +35,16 @@
         <div class="content">
             <h1 class="title">3D <span>Images</span></h1>
             <div class="card">
+			<div class="card__item">
+                    <button class="popup-button" onclick="showPopup('cuisine02')">Cuisine 02 Info</button>
+                    <model-viewer class="card__model" loading="eager" style="background-color: rgb(212,212,212);" shadow-intensity="1" src="obj/cuisine 02.glb" alt="3d img1" autoplay auto-rotate camera-controls ar ios-src="obj/cuisine 02.glb">
+                    </model-viewer>                  
+                    <span class="card__txt">
+                        rotate <span>me</span>
+                    </span>
+                </div></br></br>
                 <div class="card__item">
-                    <button class="popup-button" onclick="showPopup('cuisine02')">Cuisine 03 Info</button>
+                    <button class="popup-button" onclick="showPopup('cuisine03')">Cuisine 03 Info</button>
                     <model-viewer class="card__model" loading="eager" style="background-color: rgb(212,212,212);" shadow-intensity="1" src="obj/cuisine 03.glb" alt="3d img1" autoplay auto-rotate camera-controls ar ios-src="obj/cuisine 03.glb">
                     </model-viewer>                  
                     <span class="card__txt">
@@ -110,6 +118,12 @@
     <div class="popup" id="cuisine02">
         <div class="popup-content">
             <span class="close-button" onclick="closePopup('cuisine02')">&times;</span>
+            <p>Please if Need More Info About This 3D Object</br> Go To Home Section Or Go To Social Media</br> To Showing More Image and Video's!</p>
+        </div>
+    </div>
+	<div class="popup" id="cuisine03">
+        <div class="popup-content">
+            <span class="close-button" onclick="closePopup('cuisine03')">&times;</span>
             <p>Please if Need More Info About This 3D Object</br> Go To Home Section Or Go To Social Media</br> To Showing More Image and Video's!</p>
         </div>
     </div>
